@@ -3,7 +3,7 @@ export default function GameView() {
     <div className="bg-black w-full h-full text-white flex flex-col">
       <div className="flex justify-center py-2">Top Bar </div>
       {/* Game content goes here */}
-      <div className="flex-grow flex flex-col w-full items-center h-full">
+      <div className="flex-grow flex flex-col w-full items-center h-min-full">
         {/* Game content area */}
         <div className="flex-grow">Game Content</div>
         {/* skill bar */}
@@ -14,7 +14,7 @@ export default function GameView() {
           <div className="row-start-2 bg-red-500 col-span-1 rounded-lg">3</div>
           <div className="row-start-2 bg-red-500 col-span-1 rounded-lg">4</div>
 
-          <div className="row-start-1 row-span-2 bg-red-500 rounded-lg">5</div>
+          <div className="row-start-1 row-span-2 bg-red-500 rounded-lg ">5</div>
         </div>
       </div>
     </div>
